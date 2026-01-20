@@ -1,0 +1,28 @@
+@keyframes float {
+    0% {transform:  translateY(0);}
+    50% { transform: translateY(-20px);}
+    100% {transform: translateY(0);}
+}
+
+
+body {
+    height: 100vh;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 112, 68);
+    font-size: 70px;
+    text-shadow: 
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+    
+    animation: float 2s ease-in-out infinite;
+}
+.button{
+
+    
+}

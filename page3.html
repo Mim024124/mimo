@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+<link rel="stylesheet" href="style3.css">
+    </head>
+<body style="background-color: #ee91a2;">
+ 
+ <div class="button"><a href="page4.html"> <button style="font-size: 50px; background-color: #f78c4e; color: #ffffff;">Next</button>
+                 </a>       </div>
+                     
+    <div class="image"> <img id="main-character"src="image25.png" alt="my image" width="300"></div>
+    
+    <div class="box">
+    <div class="image2" onclick="changedress('image20 (2).png')" style="cursor: pointer; pointer-events: auto;"><img src="image22 (4).png " width="300px"></div> 
+   <div class="image3" onclick="changedress('image22 (5).png')" style="cursor: pointer; pointer-events: auto;"> <img src="image23 (2).png" width="300px"></div>
+    </div>
+    <script>
+        
+  function changedress(newimage) {
+    document.getElementById('main-character').src = newimage; localStorage.setItem('boyChoice',newimage);
+  }
+
+
+    </script>
+          
+   
+</body> 
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nangu</title>
+        <link rel="stylesheet" href="style4.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jua&display=swap" rel="stylesheet">
+    </head>
+    <body>Happy Anniversary
+        <style>
+           body{
+            background: #ee91a2;
+            font-family: "Jua", sans-serif;
+
+               } 
+         </style>
+         <div class="result"><img id="final-image" src="" alt="final-look" width="300px">
+                       
+         </div>
+          <script>
+        
+        const girlPicked = localStorage.getItem('girlChoice'); 
+        const boyPicked = localStorage.getItem('boyChoice');
+        const display = document.getElementById('final-image');
+
+        
+        if (girlPicked === 'image7.png' && boyPicked === 'image22 (5).png') {
+           
+            display.src = "image11 (1).png"; 
+        } 
+        else if (girlPicked === 'image5.png' && boyPicked === 'image22 (5).png') {
+           
+            display.src = "image15.png";
+        }
+        else if (girlPicked === 'image7.png' && boyPicked === 'image20 (2).png') {
+            
+            display.src = "image10 (1).png";
+        }
+        else {
+           
+            display.src = "image14.png";
+        }
+    </script>
+         
+    </body>
+</html> 
